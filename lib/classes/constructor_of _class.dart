@@ -1,10 +1,10 @@
-// ignore_for_file: camel_case_types, non_constant_identifier_names, unused_local_variable
+// ignore_for_file: prefer_initializing_formals
 
 //C O N S T R U C T O R  O F C L A S S
 class constructorOfClass {
-  // defualt constructor not visible
+  // default constructor not visible
   // constructorOfClass();
-  // if use (;)(calssname(){};) then Function  otherwise constructor
+  // if use (;)(classname(){};) then Function  otherwise constructor
   constructorOfClass(
     int a,
     int b,
@@ -26,5 +26,5 @@ class constructorOfClass {
 
 //calling the class
 CallingClass() {
-  var Myclass = constructorOfClass(1, 2, 3);
+  var myclass = constructorOfClass(1, 2, 3);
 }

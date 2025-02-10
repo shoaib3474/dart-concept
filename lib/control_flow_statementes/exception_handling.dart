@@ -7,7 +7,7 @@ ExceptionHandling() {
     int result = 10 % 0;
     print(result);
   }
-  //use for know about exception
+  //use When  know about exception
   on TypeError {
     print('IntegerDivisionByZeroException ');
   }
@@ -17,7 +17,7 @@ ExceptionHandling() {
   }
   //catch error without app crash
   catch (error) {
-    print('Exception Cought: $error');
+    print('Exception Caught: $error');
   }
   //solution of the exception
   finally {

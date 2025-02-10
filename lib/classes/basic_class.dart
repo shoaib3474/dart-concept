@@ -26,7 +26,7 @@ void callingClassA() {
   print('Is identical --> $isIdentical');
 
   // Get the hash code of the object
-  var hashcode = object.hashCode;
+  int hashcode = object.hashCode;
   print('Hash code --> $hashcode');
 
   // Get the runtime type of the object

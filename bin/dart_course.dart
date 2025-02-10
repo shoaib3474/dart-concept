@@ -1,5 +1,17 @@
-import 'package:dart_course/function/work_flow/async/future_functions.dart';
+import 'dart:io';
 
-void main() {
-  CallingFuturefunction();
+void main(List<String> args) {
+  List<String> fruits = ['mango', 'apple'];
+  try {
+    fruits[23];
+
+    int age = int.parse(stdin.readLineSync()!);
+    print(age);
+  } on RangeError catch (e) {
+    print(e);
+  } on FormatException catch (e) {
+    print(e);
+  } catch (e) {
+    print(e);
+  }
 }
