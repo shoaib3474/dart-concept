@@ -1,2 +1,9 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Dart Course
+
+This project contains various Dart projects and exercises to help you learn and master the Dart programming language.
+
+## Local Changes
+- Your local changes here.
+
+## Remote Changes
+- Remote changes from GitHub here.
